@@ -11,12 +11,11 @@ class Profile extends React.Component {
       bio: {
         name: 'Matthew French',
       },
-      repos: [4, 5, 6],
+      repos: ['a', 'b', 'c'],
     };
   }
 
   render() {
-    console.log(this);
     return (
       <div className="row">
         <nav className="col-md-4">

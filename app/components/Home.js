@@ -1,7 +1,7 @@
-var React = require('react');
+import React from 'react';
 
 class Home extends React.Component {
-  render () {
+  render() {
     return (
       <h2 className="text-center">
         Search for GitHub username.

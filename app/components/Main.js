@@ -1,7 +1,7 @@
 import React from 'react';
 
 class Main extends React.Component {
-  render() {
+  render () {
     return (
       <div className="main-container">
         <nav className="navbar navbar-default" role="navigation">

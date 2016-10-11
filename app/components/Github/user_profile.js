@@ -1,7 +1,7 @@
 import React from 'react';
 
 class UserProfile extends React.Component {
-  render() {
+  render () {
     return (
       <div>
         <p> Username: {this.props.username} </p>

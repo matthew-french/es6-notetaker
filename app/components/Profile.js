@@ -4,18 +4,18 @@ import UserProfile from './Github/user_profile';
 import Notes from './Notes/notes';
 
 class Profile extends React.Component {
-  constructor() {
+  constructor () {
     super();
     this.state = {
       notes: [1, 2, 3],
       bio: {
-        name: 'Matthew French',
+        name: 'Matthew French'
       },
-      repos: ['a', 'b', 'c'],
+      repos: ['a', 'b', 'c']
     };
   }
 
-  render() {
+  render () {
     return (
       <div className="row">
         <nav className="col-md-4">

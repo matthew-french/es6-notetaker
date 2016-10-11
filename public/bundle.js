@@ -24549,17 +24549,17 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _Repos = __webpack_require__(212);
+	var _repos = __webpack_require__(212);
 
-	var _Repos2 = _interopRequireDefault(_Repos);
+	var _repos2 = _interopRequireDefault(_repos);
 
-	var _UserProfile = __webpack_require__(213);
+	var _user_profile = __webpack_require__(213);
 
-	var _UserProfile2 = _interopRequireDefault(_UserProfile);
+	var _user_profile2 = _interopRequireDefault(_user_profile);
 
-	var _Notes = __webpack_require__(214);
+	var _notes = __webpack_require__(214);
 
-	var _Notes2 = _interopRequireDefault(_Notes);
+	var _notes2 = _interopRequireDefault(_notes);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -24582,7 +24582,7 @@
 	      bio: {
 	        name: 'Matthew French'
 	      },
-	      repos: [4, 5, 6]
+	      repos: ['a', 'b', 'c']
 	    };
 	    return _this;
 	  }
@@ -24590,24 +24590,23 @@
 	  _createClass(Profile, [{
 	    key: 'render',
 	    value: function render() {
-	      console.log(this);
 	      return _react2.default.createElement(
 	        'div',
 	        { className: 'row' },
 	        _react2.default.createElement(
 	          'nav',
 	          { className: 'col-md-4' },
-	          _react2.default.createElement(_UserProfile2.default, { username: this.props.params.username, bio: this.state.bio })
+	          _react2.default.createElement(_user_profile2.default, { username: this.props.params.username, bio: this.state.bio })
 	        ),
 	        _react2.default.createElement(
 	          'div',
 	          { className: 'col-md-4' },
-	          _react2.default.createElement(_Repos2.default, { repos: this.state.repos })
+	          _react2.default.createElement(_repos2.default, { repos: this.state.repos })
 	        ),
 	        _react2.default.createElement(
 	          'div',
 	          { className: 'col-md-4' },
-	          _react2.default.createElement(_Notes2.default, { notes: this.state.notes })
+	          _react2.default.createElement(_notes2.default, { notes: this.state.notes })
 	        )
 	      );
 	    }

@@ -1,7 +1,7 @@
 import React from 'react';
 
 class Notes extends React.Component {
-  render() {
+  render () {
     return (
       <div>
         <p> NOTES </p>

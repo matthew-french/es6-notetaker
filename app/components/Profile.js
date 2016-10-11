@@ -1,7 +1,7 @@
 import React from 'react';
-import Repos from './Github/Repos';
-import UserProfile from './Github/UserProfile';
-import Notes from './Notes/Notes';
+import Repos from './Github/repos';
+import UserProfile from './Github/user_profile';
+import Notes from './Notes/notes';
 
 class Profile extends React.Component {
   constructor() {

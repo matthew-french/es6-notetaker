@@ -1,14 +1,14 @@
-import React from 'react';
+var React = require('react');
 
-class Notes extends React.Component {
-  render () {
+var Notes = React.createClass({
+  render: function () {
+    console.log('Notes: ', this.props.notes)
     return (
       <div>
         <p> NOTES </p>
-        <p> {this.props.notes} </p>
       </div>
     );
   }
-}
+});
 
-export default Notes;
+module.exports = Notes;

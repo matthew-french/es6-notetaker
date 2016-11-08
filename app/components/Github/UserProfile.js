@@ -1,6 +1,6 @@
-import React from 'react';
+var React = require('react');
 
-class UserProfile extends React.Component {
+var UserProfile = React.createClass({
   render () {
     return (
       <div>
@@ -9,6 +9,6 @@ class UserProfile extends React.Component {
       </div>
     );
   }
-}
+})
 
-export default UserProfile;
+module.exports = UserProfile;

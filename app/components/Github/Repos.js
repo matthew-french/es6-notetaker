@@ -1,6 +1,6 @@
-import React from 'react';
+var React = require('react');
 
-class Repos extends React.Component {
+var Repos = React.createClass({
   render () {
     return (
       <div>
@@ -9,6 +9,6 @@ class Repos extends React.Component {
       </div>
     );
   }
-}
+});
 
-export default Repos;
+module.exports = Repos;

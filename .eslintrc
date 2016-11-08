@@ -59,7 +59,7 @@
     "jsx-a11y/onclick-has-role": 2,
     "jsx-a11y/role-has-required-aria-props": 2,
     "jsx-a11y/role-supports-aria-props": 2,
-    "filenames/match-regex": [2, "^[a-z_.]+$"],
+    "filenames/match-regex": [2, "^[a-z_]+$", true],
     "filenames/no-index": 0
   },
   "env": {

@@ -1,8 +1,11 @@
+var BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+
 module.exports = {
   entry: './app/App.js',
   output: {
     filename: 'public/bundle.js'
   },
+  plugins: [new BundleAnalyzerPlugin()],
   module: {
     loaders: [
       {

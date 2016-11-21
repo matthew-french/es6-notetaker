@@ -1,12 +1,13 @@
-import React from 'react';
+var React = require('react');
+var SearchGithub = require('./SearchGithub');
 
-class Main extends React.Component {
-  render () {
+var Main = React.createClass({
+  render: function () {
     return (
       <div className="main-container">
         <nav className="navbar navbar-default" role="navigation">
           <div className="col-sm-7 col-sm-offset-2" style={{ marginTop: 15 }}>
-            MENU
+            <SearchGithub />
           </div>
         </nav>
         <div className="container">
@@ -15,6 +16,6 @@ class Main extends React.Component {
       </div>
     );
   }
-}
+});
 
-export default Main;
+module.exports = Main;

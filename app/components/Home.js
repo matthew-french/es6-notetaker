@@ -4,7 +4,7 @@ class Home extends React.Component {
   render () {
     return (
       <h2 className="text-center">
-        Search for GitHub username.
+        Search for GitHub Username above.
       </h2>
     );
   }
